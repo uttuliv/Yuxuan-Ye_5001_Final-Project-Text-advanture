@@ -1,5 +1,11 @@
 # Yuxuan-Ye_5001_Final-Project-Text-advanture
 
+**Introduction**
+
+main_game.py is the main program file, while the text_game.py contains detailed functions. Please run the main_game.py to play the game.
+
+
+
 
 **Final Retrospective/Reflection**
 
