@@ -1,0 +1,44 @@
+{
+'Entrance': {
+'DESCRIPTION': "As you enter the house, you find yourself standing on a plush rug. Taking a quick look around, you notice that there are multiple paths to explore. [left, right, up] Which will you choose? ",
+'Left': 'Bedroom',
+'Right': 'Bathroom',
+'Up': 'Corridor',
+'Leave':'Forest'
+},
+'Bathroom': {
+'DESCRIPTION': "As you step into the bathroom, your eyes fall upon a large transparent surface directly in front of you. Upon closer inspection, you realize that it is a glass-like door, perhaps leading to an additional room up to the bathroom. However, before you can indulge in any relaxation, you are struck with a sudden bout of urinary urgency. Maybe you should answer the call of nature first. What will you do? ['open', 'up', 'leave'] ",
+'Up': 'Glassroom',
+'Leave':'Entrance',
+'Open': "As you open the lid of the toilet, you hear a hissing sound coming from the bowl. Suddenly, a long, slithery snake emerges from the water and lunges at the character, sinking its fangs into their skin. You feel a sharp pain.'"
+},
+'Bedroom': {
+'DESCRIPTION': "This is a bedroom.A tall wardrobe standing against one of the walls.Your curiosity is piqued, and you can't help but wonder if there might be something hidden inside. However, suddenly you feel dizzy. Your eyes are drawn to the king-size bed in the center of the room, its soft pillows and cozy blankets tempting you to rest and recover from your sudden bout of lightheadedness. The kingsize bed looks so comfortable...... What will you do? ['sleep', 'Up', 'leave'] ",
+'Sleep':'As you lays down, you feel a sense of calm and relaxation wash over you. You close your eyes and allow yourself to drift off into a deep and restful slumber. You slip away quietly and without any struggle, leaving behind a feeling of tranquility and contentment.',
+'Leave':'Entrance',
+'Up': 'Wardrobe'
+},
+'Glassroom': {
+'DESCRIPTION': "As you step onto the glass floor, you can't help but notice the multitude of reflections of yourself staring back at you from within the glasses. It's as if there are thousands of versions of yourself staring back at you, creating a mesmerizing and slightly disorienting effect. You feel a little bit cold. Should I go up? Or just leave. What will you do? ['up', 'leave'] ",
+'Leave':'Bathroom',
+'Up': 'Garden'
+},
+'Wardrobe': {
+'DESCRIPTION': "As you tentatively reach for the handles and pull the doors open, you're surprised to find that the wardrobe is not a normal storage space at all, but instead serves as an entrance to a mystical forest. The trees inside are tall and ancient, and the air is thick with the scent of earth and foliage. You can't help but feel a sense of wonder and amazement at this unexpected discovery. What will you do? ['up', 'leave']",
+'Leave': 'Bedroom',
+'Up':'Forest'
+},
+'Forest': {
+'DESCRIPTION': "Hafts of sunlight filter down through the dense canopy overhead, casting dappled patterns of light and shadow on the forest floor. As you venture further into the forest, you can't help but feel a sense of magic and mystery all around you. There are whispers in the wind and rustlings in the underbrush, as if the forest is alive and watching your every move. It's a place where anything seems possible, and every turn of the path could lead to a new and unexpected discovery...... Welcome to the New World.",
+},
+'Garden': {
+'DESCRIPTION': "The garden is meticulously arranged, with each flowerbed perfectly manicured and bursting with color. There are towering sunflowers with their bright yellow petals, delicate roses in shades of pink and red, and vibrant wildflowers in every shade of the rainbow. At the end of the garden there is an archway surrounded by thorns.What will you do? ['up', 'leave']", 
+'Leave': 'Corridor',
+'Up':'Forest'
+},
+'Corridor': {
+'DESCRIPTION': "It's an endless corridor towards unknown door.This particular door leads to a long upstairs. Only a little light came through the unclosed doorway at the end, filling the entire corridor with dim light.What will you do? ['up', 'leave']",
+'Up':'Garden',
+'Leave':'Entrance'
+}
+}
