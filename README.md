@@ -1,7 +1,8 @@
 # Yuxuan-Ye_5001_Final-Project-Text-advanture
 
 
-**Final Retrospective/Reflection**
+**Final Retrospective/Reflection**\n
+
 Reflecting on the project, I have come to realize the main learning points I gained from this experience. Firstly, I learned how to write a complete program from scratch, which was a very valuable skill. This gave me an opportunity to understand the entire programming process, from defining variables to debugging and testing. Additionally, I was able to learn how to use class methods in a large program, which was essential in improving the game.
 
 Another important skill I learned was how to use the ast method to load files directly into dictionaries. This was a valuable discovery, as it allowed me to simplify the process of accessing data, reducing the amount of code I had to write.
